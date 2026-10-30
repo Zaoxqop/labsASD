@@ -21,11 +21,11 @@ int main() {
         P *= (chs / zn);
         operations += 3; // ділення, множення, присвоєння
 
-        operations += 1; // збільшення i на 1
+        operations += 2; // i++
     }
 
     printf("Result: %.7f\n", P);
-    printf("Operations: %d\n", operations);
+    printf("Operations: %u\n", operations);
 
     return 0;
 }
